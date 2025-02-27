@@ -1,0 +1,6 @@
+<svg width="200" height="100">
+  <circle cx="50" cy="50" r="40" fill="#007bff" />
+  <text x="50" y="55" font-size="20" font-family="Arial" fill="white" text-anchor="middle" alignment-baseline="middle">IR</text>
+  <rect x="120" y="30" width="60" height="40" fill="#dc3545" rx="10" ry="10" />
+  <text x="150" y="50" font-size="16" font-family="Arial" fill="white" text-anchor="middle" alignment-baseline="middle">Igreja Renovada</text>
+</svg>

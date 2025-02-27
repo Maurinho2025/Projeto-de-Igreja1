@@ -1,0 +1,181 @@
+/* Variáveis CSS */
+:root {
+  --primary-color: #ffcc00;
+  --secondary-color: #343a40;
+  --text-color: #333;
+  --text-light-color: #555;
+  --background-light: #f4f4f4;
+  --background-dark: rgba(0, 0, 0, 0.4);
+  --jumbotron-bg: rgba(255, 255, 255, 0.901);
+  --white: white;
+  --green: green;
+}
+
+/* Reset e fontes modernas */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+/* Imagem de destaque (background principal) */
+.highlight-image {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.6);
+  height: 100vh;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/* Navbar estilizada */
+.navbar {
+  background-color: var(--background-dark);
+  padding: 1rem;
+  transition: background 0.3s;
+}
+
+.navbar-brand {
+  align-items: center;
+  color: var(--white) !important;
+  display: flex;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: var(--white) !important;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Jumbotron (seção principal de conteúdo) */
+.jumbotron {
+  background-color: var(--jumbotron-bg);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.jumbotron h1 {
+  color: var(--text-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.jumbotron p {
+  color: var(--text-black-color);
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Conteúdo principal (abaixo do jumbotron) */
+.main-content {
+  margin: auto;
+  max-width: 900px;
+  padding: 120px 15px 50px;
+  text-align: center;
+}
+
+.main-content h2 {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+main-content p {
+  color: var(--white);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Seção de Sermões Recentes */
+.ratio.ratio-16x9 {
+  margin-top: 20px;
+}
+
+/* Resumo do Sermão */
+.mt-4.text-white {
+  text-align: left;
+}
+
+.mt-4.text-white h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.mt-4.text-white h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.mt-4.text-white li {
+  margin-bottom: 5px;
+}
+
+.mt-4.text-white ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color-);
+  color: var(--black);
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .jumbotron h1 {
+      font-size: 2rem;
+  }
+
+  .jumbotron p {
+      font-size: 1rem;
+  }
+
+  .main-content {
+      padding: 100px 10px 30px;
+  }
+
+  .main-content h2 {
+      font-size: 1.8rem;
+  }
+
+  .main-content p {
+      font-size: 0.9rem;
+  }
+
+  .navbar-brand img {
+      height: 35px;
+  }
+}
+
+.calendar-day{
+  min-height: 80px;
+}
