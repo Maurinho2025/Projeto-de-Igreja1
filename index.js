@@ -119,7 +119,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentYear = currentDate.getFullYear();
 
     const events = [
-        { title: 'Reunião de Oração', start: '2025-02-26T20:00:00' },
+        { title: 'Reunião de Oração Quarta-feira', start: '2025-02-05T20:00:00' },
+        { title: 'Reunião de Oração Quarta-feira', start: '2025-02-12T20:00:00' },
         { title: 'Culto das Mulheres', start: '2025-02-27T20:00:00' },
         { title: 'Missão Social', start: '2025-02-28T19:00:00' },
         { title: 'Estudo Bíblico', start: '2025-03-01T20:00:00', description: 'Estudo quinzenal' },
